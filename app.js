@@ -9,7 +9,7 @@ app.get("/", function(req,res){
 });
 
 app.get("/desktop-suport", function(req,res){
-	res.render("desktop-suport.html");
+	res.render("desktop-support.html");
 });
 
 app.get("/sys-admin", function(req,res){

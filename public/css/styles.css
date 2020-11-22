@@ -1,0 +1,46 @@
+body {
+    background-color: #FAF7F6;
+    color: black;
+}
+a {
+	color: #007bff;
+}
+header {
+	padding-top: 1rem;
+}
+header, main, nav, footer {
+    text-align: center;
+}
+nav a {    
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.5em;
+    text-decoration: none;   
+    color: black;   
+    line-height: 1rem;       
+}
+img {
+    border-radius: 15px;
+}
+#leaderboard {
+	margin-bottom: 1rem;
+}
+figcaption {
+	font-size: .8em;
+	font-style: italic;
+}
+
+nav .active {
+    color: black;
+    border-bottom: 2px #007bff solid;
+    font-weight: bold;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    font-size: 12px;
+    color: #112e51;
+}
