@@ -5,19 +5,19 @@ app.use(express.static("public"));
 
 //Routing
 app.get("/", function(req,res){
-	res.render("index.html", {"pageTitle"},"Getting Started in IT");
+	res.render("index.html");
 });
 
 app.get("/desktop-suport", function(req,res){
-	res.render("desktop-support.html", {"pageTitle"}, "Desktop Support");
+	res.render("desktop-support.html");
 });
 
 app.get("/sys-admin", function(req,res){
-	res.render("sys-admin.html", {"pageTitle"}, "System Administrator");
+	res.render("sys-admin.html");
 });
 
 app.get("/network-admin", function(req,res){
-	res.render("network-admin.html", {"pageTitle"}, "Network Administrator");
+	res.render("network-admin.html");
 });
 
 
