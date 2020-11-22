@@ -9,7 +9,7 @@ let fakerData = faker.internet.email();
 
 //Routing
 app.get("/", function(req,res){
-	res.render("index.html", {"fakerData"}:fakerData);
+	res.render("index.html", {"fakerData":fakerData});
 });
 
 app.get("/desktop-support", function(req,res){
