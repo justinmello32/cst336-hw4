@@ -8,7 +8,7 @@ app.get("/", function(req,res){
 	res.render("index.html");
 });
 
-app.get("/desktop-suport", function(req,res){
+app.get("/desktop-support", function(req,res){
 	res.render("desktop-support.html");
 });
 
