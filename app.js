@@ -3,9 +3,13 @@ const  app = express();
 app.engine('html', require('ejs').renderFile);
 app.use(express.static("public"));
 
+//Add Faker
+const faker =require('faker');
+let fakerData = faker.internet.email();
+
 //Routing
 app.get("/", function(req,res){
-	res.render("index.html");
+	res.render("index.html", {"fakerData"}:fakerData);
 });
 
 app.get("/desktop-support", function(req,res){
